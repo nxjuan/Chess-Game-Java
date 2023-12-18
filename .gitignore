@@ -6,7 +6,10 @@
 
 # BlueJ files
 *.ctxt
+*.txt
 *.metadata
+*.xmi
+*.index
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
