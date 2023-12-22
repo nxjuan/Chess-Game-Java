@@ -59,7 +59,7 @@ public class UI {
 			System.out.print((8 - i) + " ");
 			
 			for(int j = 0; j < pieces.length; j++) {
-				 	printPiece(pieces[i][j], false);
+				printPiece(pieces[i][j], false);
 			}
 			System.out.println();
 		}
@@ -81,14 +81,8 @@ public class UI {
 			}
 		}
 		else {
-			System.out.print(ANSI_WHITE_BACKGROUND);
-			System.out.print(ANSI_RED);
 			System.out.println("!!! CHECKMATE !!!");
-			System.out.print(ANSI_RESET);
-			System.out.println(ANSI_GREEN);
 			System.out.println("Winner: " + chessMatch.getCurrentPlayer());
-			System.out.print(ANSI_RESET);
-			System.out.println();
 		}
 	}
 	
