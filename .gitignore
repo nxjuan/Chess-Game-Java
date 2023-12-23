@@ -6,10 +6,6 @@
 
 # BlueJ files
 *.ctxt
-*.txt
-*.metadata
-*.xmi
-*.index
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -22,8 +18,21 @@
 *.zip
 *.tar.gz
 *.rar
+*.index
+*.history
+*.xmi
+*.ui
+*.ide
+*.snap
+*.version
+*.makers
 *.plugins
+*.org
+*.eclipse
+*.core
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-replay_pid*
+
+# Eclipse
+.settings/
